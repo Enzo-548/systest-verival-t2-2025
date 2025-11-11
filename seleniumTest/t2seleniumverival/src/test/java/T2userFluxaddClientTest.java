@@ -57,7 +57,8 @@ public void setUp() {
   public void tearDown() {
     if (driver != null) driver.quit();         // evita NPE se o driver não subir
   }
-  
+
+//SELENIUM
   @Test
   public void t2userfluxaddClient() {
     // Test name: t2-userflux-addClient
